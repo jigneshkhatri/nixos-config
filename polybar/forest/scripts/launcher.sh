@@ -1,4 +1,4 @@
-#!/usr/bin/env bash
+#!/bin/bash
 
 FILE="$HOME/.config/polybar/forest/scripts/rofi/colors.rasi"
 

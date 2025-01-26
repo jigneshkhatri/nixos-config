@@ -1,4 +1,4 @@
-#!/usr/bin/env bash
+#!/bin/bash
 
 SDIR="$HOME/.config/polybar/forest/scripts"
 

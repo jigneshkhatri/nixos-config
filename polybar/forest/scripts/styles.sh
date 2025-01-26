@@ -1,4 +1,4 @@
-#!/usr/bin/env bash
+#!/bin/bash
 
 # Color files
 PFILE="$HOME/.config/polybar/forest/colors.ini"

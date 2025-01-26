@@ -6,16 +6,16 @@
 ## Twitter : @adi1090x
 
 dir="~/.config/polybar/forest/scripts/rofi"
-uptime=$(uptime -p | sed -e 's/up //g')
+uptime=$(uptime | sed -E 's/.*up ([^,]+), .*/\1/')
 
 rofi_command="rofi -no-config -theme $dir/powermenu.rasi"
 
 # Options
-shutdown=" Shutdown"
-reboot=" Restart"
-lock=" Lock"
-suspend=" Sleep"
-logout=" Logout"
+shutdown=" Shutdown"
+reboot=" Reboot"
+lock=" Lock"
+suspend="󰒲 Sleep"
+logout="󰗽 Logout"
 
 # Confirmation
 confirm_exit() {

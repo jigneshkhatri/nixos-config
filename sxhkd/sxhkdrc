@@ -2,6 +2,14 @@
 # wm independent hotkeys
 #
 
+# app launcher
+super
+	sh ~/.config/polybar/forest/scripts/launcher.sh &
+
+# power menu
+super + p
+	sh ~/.config/polybar/forest/scripts/powermenu.sh &
+
 # terminal emulator
 super + Return
 	contour

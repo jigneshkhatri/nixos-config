@@ -273,7 +273,7 @@ profiles:
 
         history:
             # Number of lines to preserve (-1 for infinite).
-            limit: 1000
+            limit: 10000
 
             # Boolean indicating whether or not to scroll down to the bottom on screen updates.
             auto_scroll_on_update: true
@@ -371,7 +371,7 @@ profiles:
             regular:
                 # Font family defines the font family name, such as:
                 # ""Fira Code", "Courier New", or "monospace" (default).
-                family: monospace
+                family: IntoneMonoNerdFont
 
                 # Font weight can be one of:
                 #   thin, extra_light, light, demilight, book, normal,
@@ -486,7 +486,7 @@ profiles:
         #
         # The dark color scheme is used when the system is configured to prefer dark mode and light theme otherwise.
 
-        colors: default
+        colors: papercolor-dark
 
         hyperlink_decoration:
             normal: dotted-underline

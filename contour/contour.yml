@@ -2,6 +2,19 @@ font:
   size: 12                # Set font size
   family: "IntoneMonoNerdFont"     # Font family name
 
+color_schemes:
+  default:
+    default:
+      background: "#1e1e2e"   # Background color
+      foreground: "#cdd6f4"   # Text color
+      cursor: "#cdd6f4"       # Cursor color
+      selection: "#45475a"    # Selection color
+    selection:
+      foreground: CellForeground
+      foreground_alpha: 1.0
+      background: '#45475a'
+      background_alpha: 0.5
+
 colors:
   background: "#1e1e2e"   # Background color
   foreground: "#cdd6f4"   # Text color
@@ -13,7 +26,7 @@ history:
 
 shell:
   program: "/run/current-system/sw/bin/zsh" # Path to the shell
- # arguments: ["-l"]      # Arguments passed to the shell
+  arguments: ["-l"]      # Arguments passed to the shell
 
 tabs:
   enable: true             # Enable tabbed interface

@@ -8,7 +8,7 @@
  */
 
 configuration {
-	font:							"IntelOneMono 10";
+	font:							"IntoneMonoNerdFont 10";
     show-icons:                     true;
 	icon-theme: 					"Papirus";
     display-drun: 					"";
@@ -39,7 +39,7 @@ prompt {
 	padding: 						0px;
 	background-color: 				@bga;
 	text-color: 					@ac;
-	font:							"IntelOneMono 12";
+	font:							"IntoneMonoNerdFont 12";
 }
 
 entry {

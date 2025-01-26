@@ -1,0 +1,22 @@
+font:
+  size: 12                # Set font size
+  family: "IntoneMonoNerdFont"     # Font family name
+
+colors:
+  background: "#1e1e2e"   # Background color
+  foreground: "#cdd6f4"   # Text color
+  cursor: "#cdd6f4"       # Cursor color
+  selection: "#45475a"    # Selection color
+
+history:
+  limit: 10000            # Number of lines in the scrollback buffer
+
+shell:
+  program: "/run/current-system/sw/bin/zsh" # Path to the shell
+ # arguments: ["-l"]      # Arguments passed to the shell
+
+tabs:
+  enable: true             # Enable tabbed interface
+  newTab: "/run/current-system/sw/bin/zsh"  # Default shell for new tabs
+
+
